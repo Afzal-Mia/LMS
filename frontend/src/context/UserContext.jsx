@@ -13,7 +13,7 @@ export const UserContextProvider = ({ children }) => {
 
   async function loginUser(email, password, navigate, fetchMyCourse) {
     setBtnLoading(true);
-    console.log("this is server",server);
+    // console.log("this is server",server);
     try {
       const { data } = await axios.post(`${server}/api/user/login`, {
         email,
