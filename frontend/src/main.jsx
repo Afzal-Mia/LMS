@@ -8,6 +8,7 @@ export const server = "https://lms-backend-ls35.onrender.com/";
 console.log("server");
 console.log(server);
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
     <UserContextProvider>
       <CourseContextProvider>

@@ -13,13 +13,14 @@ export const UserContextProvider = ({ children }) => {
 
   async function loginUser(email, password, navigate, fetchMyCourse) {
     setBtnLoading(true);
+    console.log("this is server",server);
     try {
       const { data } = await axios.post(`${server}/api/user/login`, {
         email,
         password,
       });
-      // console.log("after login the date is heres");
-      // console.log(data);
+      console.log("after login the date is heres");
+      console.log(data);
 
       toast.success(data.message);
       localStorage.setItem("token", data.token);
