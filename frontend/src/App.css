@@ -5,22 +5,30 @@ body {
   font-family: 'Segoe UI', sans-serif;
 }
 
-.common-btn {
-  background-color: #8a4baf;
-  color: white;
-  padding: 10px 20px;
+.home-content .common-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  background-color: #6c3bb8;
+  color: #fff;
   border: none;
-  border-radius: 5px;
-  font-size: 18px;
+  border-radius: 8px;
+  font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  display: inline-block; 
+  width: auto;
+}
 
-  &:hover {
-    background-color: #5f357e;
-  }
+.common-btn:hover {
+  background-color: #6d3bb8e1;
+  transform: translateY(-2px);
+} 
 
-  @media (max-width: 768px) {
-    font-size: 16px;
+@media (max-width: 768px) {
+
+  .common-btn {
+    padding: 12px 24px;
+    font-size: 14px;
   }
 }

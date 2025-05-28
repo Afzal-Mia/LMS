@@ -50,17 +50,19 @@
   line-height: 1.6;
 }
 
-.common-btn {
-  background-color: #8a4baf;
-  color: #fff;
-  padding: 14px 28px;
-  border: none;
-  border-radius: 10px;
+.course-description .common-btn {
+  padding: 12px 28px;
   font-size: 16px;
+  background-color: #6c3bb8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  margin-top: 25px;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  display: inline-block; 
+  width: auto;
 }
 
 .common-btn:hover {

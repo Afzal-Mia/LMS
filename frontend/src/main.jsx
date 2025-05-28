@@ -5,6 +5,7 @@ import { UserContextProvider } from "./context/UserContext.jsx";
 import { CourseContextProvider } from "./context/CourseContext.jsx";
 
 export const server = "https://lms-backend-ls35.onrender.com";
+// export const server = "http://localhost:1200";
 // console.log("server");
 // console.log(server);
 
