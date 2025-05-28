@@ -1,0 +1,168 @@
+.left {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.left h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Flex wrap layout */
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: flex-start;
+}
+
+/* Individual CourseCard styling (responsive) */
+.dashboard-content > * {
+  flex: 1 1 250px; /* grow, shrink, basis */
+  /* max-width: 100%; */
+}
+
+/* Message when no courses */
+.dashboard-content p {
+  flex: 1 1 100%;
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  padding: 2rem;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Responsive padding and font */
+@media (max-width: 768px) {
+  .left {
+    padding: 1rem;
+  }
+.dashboard-content > * {
+   max-width: 100%;
+}
+  .left h1 {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-content {
+    gap: 1rem;
+  }
+}
+/* for right one */
+/* Container styling */
+.add-course {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* Form wrapper */
+.course-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Heading */
+.course-form h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* Form layout */
+.course-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+/* Labels */
+.course-form label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.2rem;
+}
+
+/* Inputs and select */
+.course-form input,
+.course-form select {
+  padding: 0.6rem 0.8rem;
+  font-size: 0.95rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.course-form input:focus,
+.course-form select:focus {
+  border-color: #007bff;
+}
+
+/* File input */
+.course-form input[type="file"] {
+  padding: 0.4rem 0;
+  border: none;
+}
+
+/* Image preview */
+.course-form img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+}
+
+/* Submit button */
+.common-btn {
+  margin-top: 1rem;
+  padding: 0.65rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.common-btn:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.common-btn:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .add-course {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .course-form h2 {
+    font-size: 1.4rem;
+  }
+
+  .common-btn {
+    font-size: 0.95rem;
+    padding: 0.55rem 0.9rem;
+  }
+}
+ 
