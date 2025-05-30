@@ -3,7 +3,7 @@
 A full-stack Learning Management System built with the MERN stack. This application features user and admin roles, OTP-based registration, course and lecture management, progress tracking, and payment integration.
 
 ---
-## 📺 Preview
+## 📺👇👇👇 Click on Preview Image to see the demonstrative video👇👇👇
 
 [![Preview Video](https://img.youtube.com/vi/-rkOo5zhuqM/0.jpg)](https://youtu.be/-rkOo5zhuqM)
 
