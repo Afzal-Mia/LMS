@@ -5,10 +5,9 @@ A full-stack Learning Management System built with the MERN stack. This applicat
 ---
 ## 📺 Preview
 
-<video src="frontend/public/prev.mp4" controls width="100%" style="max-width: 800px; border-radius: 12px;"></video>
+[![Preview Video](https://img.youtube.com/vi/-rkOo5zhuqM/0.jpg)](https://youtu.be/-rkOo5zhuqM)
 
-> 🎥 This video demonstrates the core features and UI of the LMS system.
-
+> 🎥 Click the thumbnail above to watch the preview video on YouTube.
 ## 🚀 Features
 
 * ✅ OTP Email Verification on Registration
