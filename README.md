@@ -8,6 +8,18 @@ A full-stack Learning Management System built with the MERN stack. This applicat
 [![Preview Video](https://img.youtube.com/vi/-rkOo5zhuqM/0.jpg)](https://youtu.be/-rkOo5zhuqM)
 
 > 🎥 Click the thumbnail above to watch the preview video on YouTube.
+
+* **Screen Shots:**
+    ![Our Students](frontend/public/s1.png)
+    ![Courses](frontend/public/s2.png)
+    ![Profile](frontend/public/s3.png)
+    ![Admmin Dashboard](frontend/public/s4.png)
+    ![pr](frontend/public/s5.png)
+    ![Lecture](frontend/public/s6.png)
+    ![pr](frontend/public/s7.png)
+    ![Buy](frontend/public/s8.png)
+    ![Payment](frontend/public/s9.png)
+    ![confirm](frontend/public/s10.png)
 ## 🚀 Features
 
 * ✅ OTP Email Verification on Registration
