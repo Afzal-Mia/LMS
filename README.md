@@ -20,6 +20,13 @@ A full-stack Learning Management System built with the MERN stack. This applicat
     ![Buy](frontend/public/s8.png)
     ![Payment](frontend/public/s9.png)
     ![confirm](frontend/public/s10.png)
+---
+## 🔐
+user and password:
+ansarahemad1220@gmail.com   user1@1234  
+mohammedafzal1213@gmail.com   admin@1234
+please use it only to see the functionality
+---
 ## 🚀 Features
 
 * ✅ OTP Email Verification on Registration
@@ -104,7 +111,6 @@ npm run dev
 | SuperAdmin | Reserved for future enhancements       |
 
 ---
-
 ## 📄 Mongoose Models
 
 ### User
